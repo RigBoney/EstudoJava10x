@@ -9,9 +9,9 @@ public class Arrays {
 
         //array de palavras
         String[] ninja = new String[10];
-        ninja[0] = "Naruto Uzumaki";
+        ninja[0] = "Uzumaki Uzumaki";
         ninja[1] = "Shikamaru Nara";
-        ninja[2] = "Sasuke Uchiha";
+        ninja[2] = "Uchiha Uchiha";
 
         //array de numeros
         int[] idade = {1, 2, 3};

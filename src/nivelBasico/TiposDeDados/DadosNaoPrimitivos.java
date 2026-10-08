@@ -3,7 +3,7 @@ package nivelBasico.TiposDeDados;
 public class DadosNaoPrimitivos {
     public static void main(String[] args) {
 
-        String nome = "Naruto Uzumaki";
+        String nome = "Uzumaki Uzumaki";
         String nomeMaisculo = nome.toUpperCase(); // deixa em capslock
         System.out.println("Nome em caixa alta: " + nomeMaisculo);
         System.out.println("Nome normal: " + nome);

@@ -10,7 +10,7 @@ public class EstudoSwitchCases {
 
         //mostrar as opcoes ao usuario
         System.out.println("Escolha dentre um dos personagens: ");
-        System.out.println("1 - Naruto Uzumaki");
+        System.out.println("1 - Uzumaki Uzumaki");
         System.out.println("2 - Shikamaru Nara");
         System.out.println("3 - Rock lee");
 
@@ -20,7 +20,7 @@ public class EstudoSwitchCases {
         // resposta do usuario
         switch (escolhaDoUsuario) {
             case 1:
-                System.out.println("O usuario escolheu Naruto Uzumaki, o mais chatinho que ta tendo.");
+                System.out.println("O usuario escolheu Uzumaki Uzumaki, o mais chatinho que ta tendo.");
                 break;
             case 2:
                 System.out.println("O usuario escolheu Shikamaru Nara, do grego, estrategit.");

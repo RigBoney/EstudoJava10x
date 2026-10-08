@@ -1,5 +1,7 @@
 package nivelIntermediario.HerancaEmJava;
-public class HerancaDeUsuario {
+
+public class HerancaDeUsuario extends UsuarioComum{
+
     public static void main(String[] args) {
 
         //criar um usuario

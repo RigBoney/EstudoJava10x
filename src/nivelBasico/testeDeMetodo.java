@@ -4,7 +4,7 @@ public class testeDeMetodo {
     void main(String[] args) {
         avaliarNinja("konohamaru", 12, "derrotar zabuza", "A" );
         avaliarNinja("hanabi", 11, "Achar um cahorro", "D");
-        avaliarNinja("Naruto", 17, "Derrotar Pain", "S");
+        avaliarNinja("Uzumaki", 17, "Derrotar Pain", "S");
     }
 
     public static void avaliarNinja(String nome, int idade, String missao, String nivel) {

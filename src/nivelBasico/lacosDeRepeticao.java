@@ -12,19 +12,19 @@ public class lacosDeRepeticao {
 
         while (numeroDeClones < numeroMaximoDeClones) {
             numeroDeClones++;
-            String contagemClones = (numeroDeClones == 1) ? "O Naruto fez " + numeroDeClones + " clone das sombras." : "O Naruto fez " + numeroDeClones + " clones das sombras.";
+            String contagemClones = (numeroDeClones == 1) ? "O Uzumaki fez " + numeroDeClones + " clone das sombras." : "O Uzumaki fez " + numeroDeClones + " clones das sombras.";
             System.out.println(contagemClones);
         }
         //agora fazer o mesmo usando o For e If/Else
 
         for (numeroDeClones = 0; numeroDeClones < numeroMaximoDeClones; numeroDeClones++) {
             if (numeroDeClones == 0) {
-                System.out.println("Naruto ainda não fez nenhum clone.");
-            }else System.out.println("Naruto fez " + numeroDeClones + " clone(s).");
+                System.out.println("Uzumaki ainda não fez nenhum clone.");
+            }else System.out.println("Uzumaki fez " + numeroDeClones + " clone(s).");
         }
         //usando ternarios e For
         for (numeroDeClones = 0; numeroDeClones < numeroMaximoDeClones; numeroDeClones++) {
-            String contagem = (numeroDeClones == 0) ? "Naruto não tem clones." : "Naruto já tem " + numeroDeClones + " clones.";
+            String contagem = (numeroDeClones == 0) ? "Uzumaki não tem clones." : "Uzumaki já tem " + numeroDeClones + " clones.";
             System.out.println(contagem);
         }
 

@@ -1,4 +1,4 @@
 package nivelIntermediario;
 
-public class Polimorfismo {
+public class ggg {
 }
