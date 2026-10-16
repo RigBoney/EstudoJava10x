@@ -1,4 +1,4 @@
-package nivelIntermediario.HerancaEmJava;
+package nivelIntermediario.aulaHerancaEmJava;
 
 public class UsuarioComum {
 
