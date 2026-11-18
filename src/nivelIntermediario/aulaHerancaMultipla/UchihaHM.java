@@ -8,6 +8,10 @@ public class UchihaHM extends NinjaHM implements AtivarSharinganHM{
         super(nome, idade, rank, habilidade);
     }
 
+    public UchihaHM(String nome, int idade, String rank, String habilidade, int batalhas) {
+        super(nome, idade, rank, habilidade, batalhas);
+    }
+
     //metodo para falar quem é o personagem
     @Override
     public void apresentacao() {

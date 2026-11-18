@@ -12,6 +12,10 @@ public class MainHerancaMultipla {
         UchihaHM sasuke = new UchihaHM("sasuke", 16, "A", "Chidori");
         sasuke.apresentacao();
         sasuke.AtivarSharinganHM();
+
+        UchihaHM madara = new UchihaHM("madara", 17, "A", "Suzano", 999);
+        madara.apresentacao();
+        madara.AtivarSharinganHM();
     }
 
 }
