@@ -7,7 +7,7 @@ public class NinjaHM {
     protected String rank;
     protected String habilidade;
     protected int batalhas;
-
+    
     public NinjaHM(String nome, int idade, String rank, String habilidade) {
         this.nome = nome;
         this.idade = idade;
