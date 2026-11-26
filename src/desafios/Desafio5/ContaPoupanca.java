@@ -10,7 +10,7 @@ public class ContaPoupanca extends ContaBancaria{
         if (valor > 0) {
             double valorPoupanca = valor * 0.99;
             somarSaldo(valorPoupanca);
-            System.out.println("Deposito efetuado com sucesso!");
+            System.out.println("Depositado com sucesso");
         }else {
             System.out.println("Não é possivel depositar essa quantia.");
         }

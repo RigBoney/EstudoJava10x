@@ -14,8 +14,8 @@ public abstract class ContaBancaria implements Conta {
         return tipoConta;
     }
 
-    public double somarSaldo(double valor) {
-        return saldo += valor;
+    protected void somarSaldo(double valor) {
+        saldo += valor;
     }
     @Override
     public double consultarSaldo() {
@@ -23,6 +23,14 @@ public abstract class ContaBancaria implements Conta {
     }
 
     public void mostrarSaldo() {
-        System.out.println("Saldo atual: " + consultarSaldo() + " R$.");
+        System.out.println("Saldo atual conta: " + consultarSaldo() + " R$.");
+    }
+
+    protected void subtrairSaldo(double valor) {
+        saldo -= valor;
+    }
+
+    protected void taxaBancaria(double valor) {
+
     }
 }

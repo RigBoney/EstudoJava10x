@@ -9,7 +9,7 @@ public class ContaCorrente extends ContaBancaria {
     public void depositar(double valor) {
         if (valor > 0) {
             somarSaldo(valor);
-            System.out.println("Deposito efetuado com sucesso!");
+            System.out.println("Depositado com sucesso");
         }else {
             System.out.println("Não é possivel depositar essa quantia.");
         }
