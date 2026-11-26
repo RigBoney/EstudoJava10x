@@ -4,11 +4,15 @@ public class MainDesafio5 {
 
     public static void main(String[] args) {
 
-        ContaBancaria contaYuri =  new ContaCorrente(1000);
-        contaYuri.depositar(500);
+        ContaBancaria contaYuri =  new ContaCorrente(2000);
+        ContaBancaria contaDavid = new ContaPoupanca(4000);
+        BancoKonoha bancoKonoha = new BancoKonoha();
+
         contaYuri.mostrarSaldo();
-        ContaBancaria contaDavid = new ContaPoupanca(5000);
-        contaDavid.depositar(500);
+        contaDavid.mostrarSaldo();
+        bancoKonoha.transferir(750, contaYuri, contaDavid, 3);
+
+        contaYuri.mostrarSaldo();
         contaDavid.mostrarSaldo();
     }
 }
