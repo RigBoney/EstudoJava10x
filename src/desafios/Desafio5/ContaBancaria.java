@@ -30,7 +30,4 @@ public abstract class ContaBancaria implements Conta {
         saldo -= valor;
     }
 
-    protected void taxaBancaria(double valor) {
-
-    }
 }
